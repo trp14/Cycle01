@@ -11,4 +11,16 @@ public class HomeController {
     public @ResponseBody String index() {
         return "Welcome to the home page!";
     }
+    @RequestMapping("/signup")
+    public @ResponseBody String signup() {
+        return "Signup Page..!";
+    }   
+    @RequestMapping("/about")
+    public @ResponseBody String about() {
+        return "About Page..!";
+    }        
+    @RequestMapping("/resources")
+    public @ResponseBody String resources() {
+        return "RESOURCES..!";
+    }           
 }
